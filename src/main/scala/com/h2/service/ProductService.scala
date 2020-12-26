@@ -15,7 +15,6 @@ trait ProductService extends ProductDb {
 
     saveDepositProduct(product)
     product.id
-    cd d
   }
 
   def addNewLendingProduct(annualFee: Dollars, apr: Double, rewardsPercent: Double): UUID = {
